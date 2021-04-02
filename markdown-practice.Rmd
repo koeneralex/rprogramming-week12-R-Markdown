@@ -1,0 +1,55 @@
+---
+title: "Markdown-Practice"
+author: "Alex Koener"
+date: "4/1/2021"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Week 12 - R Markdown
+
+This week's assignment is to create an **R Markdown**. A Markdown is a document you can make in RStudio that helps present or display what ever you can fit on the page!
+
+*Here is the link to the [GitHub project repository](https://github.com/koeneralex/rprogramming-week12-R-Markdown).*
+
+*Here is the link to the assignment's [blog post](https://alexrprogramming.blogspot.com/2021/04/week-12-r-markdown.html).*
+
+*Here is the link to my website [Koener.co](http://www.koener.co).*
+
+
+
+## What is R Markdown?
+
+Similar to coding in HTML, there are tags you can give to writing elements and it **styles the text** exactly how the programer chooses. What separates Markdown from HTML is a programmer that is fluent in R easily accomplish similar tasks that HTML serves. Additionally, you can knit the documents into more than HTML including PDF documents, Word documents, and Shiny applications.
+
+## Equation
+
+[Albert Einstein's](einstein.jpeg) theory for of special relativity: 
+
+$$E = mc^2$$
+
+## Code and Plots!
+
+Quick example of how Markdown displays **code and plots.**
+
+
+```{r}
+
+head(mtcars)
+
+str(mtcars)
+
+plot(mtcars$wt, mtcars$mpg)
+
+```
+
+
+
+## Blog Reflection
+
+> Prior to this assignment I was slightly familiar with R Markdown and have been using it in my other class to display projects I have been working on. However, this assignment has helped me learn some more syntax to improve my Markdown skills! I see this being a very useful tool for school, career, and personal projects. 
